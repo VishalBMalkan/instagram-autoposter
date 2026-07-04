@@ -34,7 +34,10 @@ from datetime import datetime
 from pathlib import Path
 from zoneinfo import ZoneInfo
 
-GRAPH = "https://graph.facebook.com/v21.0"
+# Uses the "Instagram API with Instagram Login" (no Facebook Page required).
+# Tokens come from a Meta app with the Instagram product added, with
+# instagram_business_basic + instagram_business_content_publish permissions.
+GRAPH = "https://graph.instagram.com/v21.0"
 ROOT = Path(__file__).resolve().parent.parent
 
 
