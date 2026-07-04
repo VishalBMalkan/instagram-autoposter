@@ -1,0 +1,30 @@
+name: Daily Instagram Post
+
+on:
+  schedule:
+    # 09:00 IST = 03:30 UTC. GitHub cron is UTC — adjust as needed.
+    - cron: "30 3 * * *"
+  workflow_dispatch: {}   # manual "Run workflow" button for testing
+
+jobs:
+  post:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Post today's content
+        env:
+          RAW_BASE_URL: https://raw.githubusercontent.com/${{ github.repository }}/main
+          IG_USER_ID_ACCOUNT1: ${{ secrets.IG_USER_ID_ACCOUNT1 }}
+          IG_TOKEN_ACCOUNT1:   ${{ secrets.IG_TOKEN_ACCOUNT1 }}
+          IG_USER_ID_ACCOUNT2: ${{ secrets.IG_USER_ID_ACCOUNT2 }}
+          IG_TOKEN_ACCOUNT2:   ${{ secrets.IG_TOKEN_ACCOUNT2 }}
+          IG_USER_ID_ACCOUNT3: ${{ secrets.IG_USER_ID_ACCOUNT3 }}
+          IG_TOKEN_ACCOUNT3:   ${{ secrets.IG_TOKEN_ACCOUNT3 }}
+          IG_USER_ID_ACCOUNT4: ${{ secrets.IG_USER_ID_ACCOUNT4 }}
+          IG_TOKEN_ACCOUNT4:   ${{ secrets.IG_TOKEN_ACCOUNT4 }}
+        run: python scripts/post_daily.py
