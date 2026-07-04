@@ -19,12 +19,14 @@ jobs:
       - name: Post today's content
         env:
           RAW_BASE_URL: https://raw.githubusercontent.com/${{ github.repository }}/main
-          IG_USER_ID_ACCOUNT1: ${{ secrets.IG_USER_ID_ACCOUNT1 }}
-          IG_TOKEN_ACCOUNT1:   ${{ secrets.IG_TOKEN_ACCOUNT1 }}
-          IG_USER_ID_ACCOUNT2: ${{ secrets.IG_USER_ID_ACCOUNT2 }}
-          IG_TOKEN_ACCOUNT2:   ${{ secrets.IG_TOKEN_ACCOUNT2 }}
-          IG_USER_ID_ACCOUNT3: ${{ secrets.IG_USER_ID_ACCOUNT3 }}
-          IG_TOKEN_ACCOUNT3:   ${{ secrets.IG_TOKEN_ACCOUNT3 }}
-          IG_USER_ID_ACCOUNT4: ${{ secrets.IG_USER_ID_ACCOUNT4 }}
-          IG_TOKEN_ACCOUNT4:   ${{ secrets.IG_TOKEN_ACCOUNT4 }}
+          IG_USER_ID_MINDYOURMONEY_6:   ${{ secrets.IG_USER_ID_MINDYOURMONEY_6 }}
+          IG_TOKEN_MINDYOURMONEY_6:     ${{ secrets.IG_TOKEN_MINDYOURMONEY_6 }}
+          IG_USER_ID_RSI_SECRET_1:      ${{ secrets.IG_USER_ID_RSI_SECRET_1 }}
+          IG_TOKEN_RSI_SECRET_1:        ${{ secrets.IG_TOKEN_RSI_SECRET_1 }}
+          IG_USER_ID_DAILYMONEYRITUAL:  ${{ secrets.IG_USER_ID_DAILYMONEYRITUAL }}
+          IG_TOKEN_DAILYMONEYRITUAL:    ${{ secrets.IG_TOKEN_DAILYMONEYRITUAL }}
+          IG_USER_ID_MONEYFESTCLUB_006: ${{ secrets.IG_USER_ID_MONEYFESTCLUB_006 }}
+          IG_TOKEN_MONEYFESTCLUB_006:   ${{ secrets.IG_TOKEN_MONEYFESTCLUB_006 }}
+          IG_USER_ID_INVESTOR_CLUB_01:  ${{ secrets.IG_USER_ID_INVESTOR_CLUB_01 }}
+          IG_TOKEN_INVESTOR_CLUB_01:    ${{ secrets.IG_TOKEN_INVESTOR_CLUB_01 }}
         run: python scripts/post_daily.py
