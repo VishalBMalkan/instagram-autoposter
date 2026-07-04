@@ -1,2 +1,3 @@
-date,image,image_url,caption
-2026-07-05,sample1.jpg,,"Your caption here. Supports hashtags #moneyhabits #dailyritual"
+date,image,image_url,video_url,caption
+2026-07-06,,,https://example.com/your-reel.mp4,"Reel example: fill video_url for a reel #moneyhabits"
+2026-07-07,,https://example.com/your-photo.jpg,,"Image example: fill image_url for a photo post"
