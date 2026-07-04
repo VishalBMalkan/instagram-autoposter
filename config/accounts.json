@@ -2,36 +2,44 @@
   "timezone": "Asia/Kolkata",
   "accounts": [
     {
-      "name": "account1",
-      "niche": "EDIT_ME e.g. finance/trading education",
-      "ig_user_id_env": "IG_USER_ID_ACCOUNT1",
-      "access_token_env": "IG_TOKEN_ACCOUNT1",
-      "calendar": "content/account1/calendar.csv",
-      "images_dir": "content/account1/images"
+      "name": "mindyourmoney_6",
+      "niche": "personal finance",
+      "ig_user_id_env": "IG_USER_ID_MINDYOURMONEY_6",
+      "access_token_env": "IG_TOKEN_MINDYOURMONEY_6",
+      "calendar": "content/mindyourmoney_6/calendar.csv",
+      "images_dir": "content/mindyourmoney_6/images"
     },
     {
-      "name": "account2",
-      "niche": "EDIT_ME",
-      "ig_user_id_env": "IG_USER_ID_ACCOUNT2",
-      "access_token_env": "IG_TOKEN_ACCOUNT2",
-      "calendar": "content/account2/calendar.csv",
-      "images_dir": "content/account2/images"
+      "name": "rsi.secret_1",
+      "niche": "trading / technical analysis",
+      "ig_user_id_env": "IG_USER_ID_RSI_SECRET_1",
+      "access_token_env": "IG_TOKEN_RSI_SECRET_1",
+      "calendar": "content/rsi.secret_1/calendar.csv",
+      "images_dir": "content/rsi.secret_1/images"
     },
     {
-      "name": "account3",
-      "niche": "EDIT_ME",
-      "ig_user_id_env": "IG_USER_ID_ACCOUNT3",
-      "access_token_env": "IG_TOKEN_ACCOUNT3",
-      "calendar": "content/account3/calendar.csv",
-      "images_dir": "content/account3/images"
+      "name": "dailymoneyritual",
+      "niche": "money habits / motivation",
+      "ig_user_id_env": "IG_USER_ID_DAILYMONEYRITUAL",
+      "access_token_env": "IG_TOKEN_DAILYMONEYRITUAL",
+      "calendar": "content/dailymoneyritual/calendar.csv",
+      "images_dir": "content/dailymoneyritual/images"
     },
     {
-      "name": "account4",
-      "niche": "EDIT_ME (delete this block if you only have 3 accounts)",
-      "ig_user_id_env": "IG_USER_ID_ACCOUNT4",
-      "access_token_env": "IG_TOKEN_ACCOUNT4",
-      "calendar": "content/account4/calendar.csv",
-      "images_dir": "content/account4/images"
+      "name": "moneyfestclub.006",
+      "niche": "wealth mindset",
+      "ig_user_id_env": "IG_USER_ID_MONEYFESTCLUB_006",
+      "access_token_env": "IG_TOKEN_MONEYFESTCLUB_006",
+      "calendar": "content/moneyfestclub.006/calendar.csv",
+      "images_dir": "content/moneyfestclub.006/images"
+    },
+    {
+      "name": "investor.club.01",
+      "niche": "investing education",
+      "ig_user_id_env": "IG_USER_ID_INVESTOR_CLUB_01",
+      "access_token_env": "IG_TOKEN_INVESTOR_CLUB_01",
+      "calendar": "content/investor.club.01/calendar.csv",
+      "images_dir": "content/investor.club.01/images"
     }
   ]
 }
