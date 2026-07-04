@@ -1,0 +1,37 @@
+{
+  "timezone": "Asia/Kolkata",
+  "accounts": [
+    {
+      "name": "account1",
+      "niche": "EDIT_ME e.g. finance/trading education",
+      "ig_user_id_env": "IG_USER_ID_ACCOUNT1",
+      "access_token_env": "IG_TOKEN_ACCOUNT1",
+      "calendar": "content/account1/calendar.csv",
+      "images_dir": "content/account1/images"
+    },
+    {
+      "name": "account2",
+      "niche": "EDIT_ME",
+      "ig_user_id_env": "IG_USER_ID_ACCOUNT2",
+      "access_token_env": "IG_TOKEN_ACCOUNT2",
+      "calendar": "content/account2/calendar.csv",
+      "images_dir": "content/account2/images"
+    },
+    {
+      "name": "account3",
+      "niche": "EDIT_ME",
+      "ig_user_id_env": "IG_USER_ID_ACCOUNT3",
+      "access_token_env": "IG_TOKEN_ACCOUNT3",
+      "calendar": "content/account3/calendar.csv",
+      "images_dir": "content/account3/images"
+    },
+    {
+      "name": "account4",
+      "niche": "EDIT_ME (delete this block if you only have 3 accounts)",
+      "ig_user_id_env": "IG_USER_ID_ACCOUNT4",
+      "access_token_env": "IG_TOKEN_ACCOUNT4",
+      "calendar": "content/account4/calendar.csv",
+      "images_dir": "content/account4/images"
+    }
+  ]
+}
